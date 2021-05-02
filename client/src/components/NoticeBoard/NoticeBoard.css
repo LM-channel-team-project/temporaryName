@@ -1,0 +1,121 @@
+.notice-board {
+  margin-top: 50px;
+}
+.notice-board-top {
+  display: flex;
+  justify-content: space-between;
+}
+.notice-board-top-left {
+  display: flex;
+}
+.notice-number {
+  width: 50px;
+  text-align: center;
+}
+.notice-title {
+  width: 640px;
+  text-align: left;
+}
+.title-before {
+  margin-right: 10px;
+}
+.update {
+  color: blue;
+}
+.idea-suggestion {
+  color: purple;
+}
+.question {
+  color: green;
+}
+.error-report {
+  color: red;
+}
+.title-after {
+  height: 20px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 12px;
+  margin-left: 10px;
+  color: white;
+  line-height: 18px;
+}
+.up {
+  width: 35px;
+  border: 1px solid blue;
+  background-color: blue;
+}
+.up::after {
+  content: "UP";
+}
+.new {
+  width: 50px;
+  border: 1px solid red;
+  background-color: red;
+}
+.new::after {
+  content: "NEW";
+}
+.notice-board-top-right {
+  display: flex;
+}
+.notice-writer {
+  width: 130px;
+  text-align: center;
+}
+.notice-date,
+.notice-active-num {
+  width: 70px;
+  text-align: center;
+}
+.notice-board-item {
+  display: flex;
+  padding: 20px 0px;
+  cursor: pointer;
+}
+.notice-board-item:nth-child(1) {
+  margin-top: 10px;
+}
+.notice-board-item:hover {
+  background-color: lightgray;
+}
+.notice-board-bottom {
+  margin-top: 20px;
+}
+.notice-board-bottom-top {
+  display: flex;
+  justify-content: space-between;
+}
+.notice-board-bottom-top-left {
+  display: flex;
+}
+.notice-board-bottom-top-left > div {
+  margin: 0px 15px;
+  cursor: pointer;
+}
+.notice-board-bottom-top-right {
+  color: blue;
+  cursor: pointer;
+}
+.notice-board-bottom-top-right > i {
+  margin-right: 5px;
+}
+.notice-board-bottom-bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.notice-board-bottom-bottom > div {
+  padding: 0px 10px;
+  cursor: pointer;
+  line-height: 20px;
+}
+.notice-board-bottom-bottom > ul > .page-num {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  background-color: turquoise;
+  color: white;
+  cursor: pointer;
+}
