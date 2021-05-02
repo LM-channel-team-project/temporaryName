@@ -1,0 +1,6 @@
+# npm modules
+node_modules/
+package-lock.json
+
+# goorm ide
+goorm.manifest
