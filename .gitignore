@@ -4,3 +4,6 @@ package-lock.json
 
 # goorm ide
 goorm.manifest
+
+# private passwords
+dev.js
