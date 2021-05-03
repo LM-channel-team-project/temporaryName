@@ -29,7 +29,7 @@ app.get('/api/test', (req, res) => {
 	res.send('test success');
 });
 
-app.post('/api/users/register', (req, res) => {
+app.post('/api/register', (req, res) => {
 	const user = new User(req.body);
 	user.save((err, uerInfo) => {
 		if (err) return res.json({ success: false, err });
@@ -37,7 +37,7 @@ app.post('/api/users/register', (req, res) => {
 	});
 });
 
-app.post('/api/users/login', (req, res) => {
+app.post('/api/login', (req, res) => {
 	User.findOne({ email: req.body.email }, (err, user) => {
 		if (!user) {
 			return res.json({
