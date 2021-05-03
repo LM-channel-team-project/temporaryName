@@ -17,8 +17,8 @@ function RegisterPage(props) {
 
   const submitRegister = () => {
     const data = {
-      id: login,
-      pw: password,
+      email: login,
+      password: password,
     };
     dispatch(registerUser(data))
       .then((response) => {
