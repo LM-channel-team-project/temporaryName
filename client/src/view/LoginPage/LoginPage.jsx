@@ -17,8 +17,8 @@ function LoginPage(props) {
 
   const submitLogin = () => {
     const data = {
-      id: login,
-      pw: password,
+      email: login,
+      password: password,
     };
     dispatch(loginUser(data))
       .then((response) => {

@@ -3,7 +3,7 @@ import { LOGIN_USER, REGISTER_USER } from "./type.js";
 
 export const loginUser = (data) => {
   const request = axios
-    .post(`/api/login`, data)
+    .post(`/api/users/login`, data)
     .then((response) => response.data);
   return {
     type: LOGIN_USER,
@@ -13,7 +13,7 @@ export const loginUser = (data) => {
 
 export const registerUser = (data) => {
   const request = axios
-    .post(`/api/register`, data)
+    .post(`/api/users/register`, data)
     .then((response) => response.data);
   return {
     type: REGISTER_USER,
