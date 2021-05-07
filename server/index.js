@@ -24,6 +24,7 @@ mongoose
 
 app.use('/', require('./routes/home'));
 app.use('/api/users', require('./routes/users'));
+app.use('/api/board', require('./routes/board'));
 
 app.listen(port, () => {
 	console.log(`Example app listening at http://localhost:${port}`);
