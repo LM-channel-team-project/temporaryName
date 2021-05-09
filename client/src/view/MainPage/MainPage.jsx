@@ -6,9 +6,7 @@ import NoticeBoard from "../../components/NoticeBoard/NoticeBoard.jsx";
 function MainPage() {
   return (
     <div>
-      <>
-        <Header />
-      </>
+      <Header />
       <div className="content">
         <NoticeBoard />
       </div>
