@@ -1,0 +1,60 @@
+.writing {
+  margin-top: 20px;
+}
+.writing > .writing-header > h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.writing > .writing-content > #category-select {
+  width: 870px;
+  padding-left: 7px;
+}
+.writing > .writing-content > .writing-title {
+  width: 856px;
+  padding: 0px;
+  padding-left: 10px;
+}
+.writing > .writing-content > #writing-note {
+  max-width: 856px;
+  min-width: 856px;
+  max-height: 300px;
+  min-height: 300px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.writing > .writing-content > #category-select,
+.writing > .writing-content > .writing-title {
+  height: 30px;
+}
+.writing > .writing-content > #category-select,
+.writing > .writing-content > .writing-title,
+.writing > .writing-content > #writing-note {
+  display: block;
+  margin: 0 auto 20px;
+  font-size: 16px;
+  outline: none;
+}
+.writing-footer {
+  width: 870px;
+  margin: 0 auto;
+}
+.writing-footer > .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.writing-footer > .buttons > button {
+  padding: 6px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.writing-footer > .buttons > .cancel {
+  border: 1px solid #cccccc;
+  background-color: white;
+  color: black;
+}
+.writing-footer > .buttons > .create {
+  background-color: #5cb85c;
+  border: 1px solid #5cb85c;
+  color: white;
+}
