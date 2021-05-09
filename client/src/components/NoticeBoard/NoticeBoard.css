@@ -93,11 +93,11 @@
   margin: 0px 15px;
   cursor: pointer;
 }
-.notice-board-bottom-top-right {
+.notice-board-bottom-top-right > a {
   color: blue;
   cursor: pointer;
 }
-.notice-board-bottom-top-right > i {
+.notice-board-bottom-top-right > a > i {
   margin-right: 5px;
 }
 .notice-board-bottom-bottom {

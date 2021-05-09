@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./NoticeBoard.css";
 
@@ -76,8 +77,10 @@ function NoticeBoard() {
             <div className="tag">태그</div>
           </div>
           <div className="notice-board-bottom-top-right">
-            <i className="fas fa-pen"></i>
-            글쓰기
+            <Link to="writing">
+              <i className="fas fa-pen"></i>
+              글쓰기
+            </Link>
           </div>
         </div>
         <div className="notice-board-bottom-bottom">
