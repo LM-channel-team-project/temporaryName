@@ -23,8 +23,8 @@ function NoticeBoard() {
           <li className="notice-board-item">
             <div className="notice-number">1</div>
             <div className="notice-title">
-              <span className="title-before update">업데이트</span>css가 안
-              먹히는 거 같습니다.
+              <span className="title-before update"></span>css가 안 먹히는 거
+              같습니다.
               <span className="title-after up"></span>
             </div>
             <div className="notice-writer">moguri846</div>
@@ -34,9 +34,7 @@ function NoticeBoard() {
           <li className="notice-board-item">
             <div className="notice-number">2</div>
             <div className="notice-title">
-              <span className="title-before idea-suggestion">
-                아이디어 제안
-              </span>
+              <span className="title-before idea-suggestion"></span>
               css가 안 먹히는 거 같습니다.
               <span className="title-after new"></span>
             </div>
@@ -58,8 +56,8 @@ function NoticeBoard() {
           <li className="notice-board-item">
             <div className="notice-number">4</div>
             <div className="notice-title">
-              <span className="title-before error-report">오류 제보</span>css가
-              안 먹히는 거 같습니다.
+              <span className="title-before error-report"></span>css가 안 먹히는
+              거 같습니다.
               <span className="title-after new"></span>
             </div>
             <div className="notice-writer">moguri846</div>
@@ -77,7 +75,7 @@ function NoticeBoard() {
             <div className="tag">태그</div>
           </div>
           <div className="notice-board-bottom-top-right">
-            <Link to="writing">
+            <Link to="write">
               <i className="fas fa-pen"></i>
               글쓰기
             </Link>

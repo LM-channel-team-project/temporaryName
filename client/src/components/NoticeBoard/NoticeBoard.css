@@ -22,14 +22,26 @@
 .update {
   color: blue;
 }
+.update::after {
+  content: "업데이트";
+}
 .idea-suggestion {
   color: purple;
+}
+.idea-suggestion::after {
+  content: "아이디어 제안";
 }
 .question {
   color: green;
 }
+.question::after {
+  content: "문의";
+}
 .error-report {
   color: red;
+}
+.error-report::after {
+  content: "오류 제보";
 }
 .title-after {
   height: 20px;

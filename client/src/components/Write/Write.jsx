@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { withRouter } from "react-router-dom";
 import { createBoardUser } from "../../_actions/user_actions.js";
 
-import "./Writing.css";
+import "./Write.css";
 
 const Category = [
   { key: 1, value: "카테고리를 선택해 주세요." },
@@ -12,7 +12,7 @@ const Category = [
   { key: 4, value: "문의" },
   { key: 5, value: "오류 제보" },
 ];
-function Writing(props) {
+function Write(props) {
   const [category, setCategory] = useState("1");
   const [title, setTitle] = useState("");
   const [note, setNote] = useState("");
@@ -139,4 +139,4 @@ function Writing(props) {
   );
 }
 
-export default withRouter(Writing);
+export default withRouter(Write);
