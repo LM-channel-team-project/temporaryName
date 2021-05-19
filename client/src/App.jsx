@@ -4,7 +4,8 @@ import { Route, Switch } from "react-router-dom";
 import MainPage from "./view/MainPage/MainPage.jsx";
 import LoginPage from "./view/LoginPage/LoginPage.jsx";
 import RegisterPage from "./view/RegisterPage/RegisterPage.jsx";
-import WritingPage from "./view/WritingPage/WritingPage.jsx";
+import WritePage from "./view/WritePage/WritePage.jsx";
+import ArticlePage from "./view/ArticlePage/ArticlePage.jsx";
 
 import "./resetCss.css";
 
@@ -15,7 +16,8 @@ function App() {
         <Route exact path="/" component={MainPage} />
         <Route exact path="/login" component={LoginPage} />
         <Route exact path="/register" component={RegisterPage} />
-        <Route exact path="/writing" component={WritingPage} />
+        <Route exact path="/write" component={WritePage} />
+        <Route exact path="/article/:id" component={ArticlePage} />
       </Switch>
     </div>
   );

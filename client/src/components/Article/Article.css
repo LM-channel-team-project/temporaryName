@@ -1,0 +1,77 @@
+.article {
+  margin-top: 50px;
+}
+.article-top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.user-info {
+  display: flex;
+}
+.user-info > .avatar {
+  font-size: 30px;
+}
+.user-info > div:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+}
+.user-info > div:nth-of-type(2) > small {
+  font-size: 13px;
+  margin-top: 3px;
+  text-align: center;
+}
+.status {
+  display: flex;
+}
+.status > .board-count:nth-of-type(1) {
+  margin-right: 20px;
+}
+.status > .board-count > * {
+  margin-right: 5px;
+}
+.article-title {
+  display: flex;
+  margin-top: 30px;
+  font-size: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+.article-title > span {
+  margin-right: 20px;
+}
+.article-content {
+  margin-top: 30px;
+}
+.setting {
+  position: relative;
+  margin-top: 10px;
+  text-align: right;
+}
+.setting > button {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.setting > button > .fa-cog {
+  font-size: 25px;
+}
+.setting-menu {
+  width: 120px;
+  position: absolute;
+  right: 0px;
+  display: none;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.setting-menu > li {
+  text-align: center;
+  padding: 10px;
+}
+.setting-menu > li > i {
+  margin-right: 5px;
+}
+.active {
+  display: block;
+}
